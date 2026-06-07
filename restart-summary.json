@@ -1,0 +1,8 @@
+{
+  "local_url": "http://127.0.0.1:8000",
+  "public_url": "https://slinging-factsheet-antivirus.ngrok-free.dev",
+  "health_http_code": "200",
+  "voice_config": "{\"llm_configured\":true,\"elevenlabs_configured\":true,\"transcribe_configured\":true,\"transcribe_model\":\"whisper-1\",\"max_follow_ups\":5}",
+  "uvicorn_procs": "66433 /opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python /Users/adityapurwar/Documents/Euortech Hackathon/backend/.venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000",
+  "ngrok_procs": "66449 /opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python /opt/homebrew/bin/ngrok http 8000 --log=stdout\n66451 /Users/adityapurwar/Library/Application Support/ngrok/ngrok http 8000 --log=stdout"
+}
