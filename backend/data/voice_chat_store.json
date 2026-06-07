@@ -1,0 +1,3011 @@
+{
+  "voice_alerts": {
+    "004": [
+      {
+        "event": "Routine check-in",
+        "detail": "Patient reported a recent Parkinson's attack but did not mention other concerns.",
+        "reason": "Regular monitoring is essential for managing Parkinson's disease effectively.",
+        "clinical_relevance": "Continue to monitor the patient's condition and ensure follow-up on reported symptoms.",
+        "timestamp": "2026-06-07T08:48:17.171464+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "preventive",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "9ee07009-43d7-4635-b9a3-b46ac47ed82d"
+      },
+      {
+        "event": "Recent Parkinson's attack",
+        "detail": "Patient experienced shaking during a Parkinson's attack.",
+        "reason": "This indicates a potential exacerbation of Parkinson's symptoms that may require adjustment in management or treatment.",
+        "clinical_relevance": "Consider reviewing the patient's current treatment plan and assessing for any necessary changes.",
+        "timestamp": "2026-06-07T08:48:17.171438+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "this_week",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "9ee07009-43d7-4635-b9a3-b46ac47ed82d"
+      },
+      {
+        "event": "routine check-in",
+        "detail": "Patient reported a recent Parkinson's attack but is feeling fine now.",
+        "reason": "Regular monitoring is essential for managing Parkinson's disease.",
+        "clinical_relevance": "Continue routine follow-up and assess for any changes in symptoms.",
+        "timestamp": "2026-06-07T08:28:23.877416+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "preventive",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "337c0cae-85f6-4773-bb0b-c24eec4f3f81"
+      },
+      {
+        "event": "fall incident reported",
+        "detail": "The patient experienced a fall during a Parkinson's attack.",
+        "reason": "Falls can lead to serious injuries and indicate worsening motor control.",
+        "clinical_relevance": "Consider evaluating the patient's medication regimen and fall risk management.",
+        "timestamp": "2026-06-07T08:28:23.877391+00:00",
+        "source": "voice_chat",
+        "red_flag": true,
+        "urgency": "today",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "337c0cae-85f6-4773-bb0b-c24eec4f3f81"
+      },
+      {
+        "event": "Routine Check-in",
+        "detail": "Patient expressed feeling anxious after watching a horror movie, leading to trouble sleeping.",
+        "reason": "Anxiety can exacerbate Parkinson's symptoms and affect overall well-being.",
+        "clinical_relevance": "Consider discussing coping strategies for anxiety and sleep disturbances in the next appointment.",
+        "timestamp": "2026-06-07T05:27:02.317746+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "preventive",
+        "assigned_doctor": "Dr. Stefan Vogel",
+        "session_id": "f0c2f723-3c4f-49e5-b68c-4015e5c8ed87"
+      },
+      {
+        "event": "Routine Check-in",
+        "detail": "The patient has reported feeling healthy prior to the recent episode.",
+        "reason": "Routine monitoring of the patient's overall health is important for managing Parkinson's disease.",
+        "clinical_relevance": "Continue to monitor non-motor symptoms and overall health status.",
+        "timestamp": "2026-06-07T05:23:39.082384+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "preventive",
+        "assigned_doctor": "Dr. Stefan Vogel",
+        "session_id": "f2f653a0-05aa-4182-b947-e783f0ad99b0"
+      },
+      {
+        "event": "Nausea and Dizziness After Drinking Water",
+        "detail": "The patient reported feeling sick, experiencing dizziness and nausea after drinking water.",
+        "reason": "These symptoms could indicate a potential gastrointestinal issue or dehydration, which can be concerning for a Parkinson's patient.",
+        "clinical_relevance": "Consider evaluating the patient's hydration status and gastrointestinal health, especially in light of the reported takeaway food.",
+        "timestamp": "2026-06-07T05:23:39.082344+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "this_week",
+        "assigned_doctor": "Dr. Stefan Vogel",
+        "session_id": "f2f653a0-05aa-4182-b947-e783f0ad99b0"
+      },
+      {
+        "event": "preventive check-in",
+        "detail": "Routine check-in with no significant concerns reported.",
+        "reason": "Regular monitoring is important for managing Parkinson's disease.",
+        "clinical_relevance": "Encourage ongoing communication and assessment of symptoms.",
+        "timestamp": "2026-06-07T05:14:35.620970+00:00",
+        "source": "voice_chat",
+        "red_flag": false,
+        "urgency": "preventive",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "9c477722-1a8c-4088-9feb-d522363a33e0"
+      },
+      {
+        "event": "difficulty standing",
+        "detail": "Patient feels they can't stand, specifically stating difficulty with the right leg.",
+        "reason": "This could indicate worsening motor symptoms or potential falls risk.",
+        "clinical_relevance": "Doctor should evaluate the patient's motor function and assess for fall risk.",
+        "timestamp": "2026-06-07T05:14:35.620930+00:00",
+        "source": "voice_chat",
+        "red_flag": true,
+        "urgency": "today",
+        "assigned_doctor": "Dr. Sarah M\u00fcller",
+        "session_id": "9c477722-1a8c-4088-9feb-d522363a33e0"
+      }
+    ]
+  },
+  "session_records": {
+    "9b5afb43-7083-406b-8fd7-13bfa3f27aa6": {
+      "session_id": "9b5afb43-7083-406b-8fd7-13bfa3f27aa6",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T04:55:21.155843+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately. How have your tremor or stiffness been since your last visit?",
+          "timestamp": "2026-06-07T04:55:21.156434+00:00",
+          "emotional_support": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately.",
+          "question": "How have your tremor or stiffness been since your last visit?"
+        },
+        {
+          "role": "user",
+          "content": "honestly no idea",
+          "timestamp": "2026-06-07T04:55:45.130642+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I want to make sure I understand you properly \u2014 no rush, take your time. How have your tremor or stiffness been since your last visit?",
+          "timestamp": "2026-06-07T04:55:45.131119+00:00",
+          "emotional_support": "I want to make sure I understand you properly \u2014 no rush, take your time.",
+          "question": "How have your tremor or stiffness been since your last visit?"
+        },
+        {
+          "role": "user",
+          "content": "honestly no idea maybe",
+          "timestamp": "2026-06-07T04:56:00.750397+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you for explaining that \u2014 it helps your doctor see the full picture. Are you managing to take your medicines at the right times each day?",
+          "timestamp": "2026-06-07T04:56:00.750875+00:00",
+          "emotional_support": "Thank you for explaining that \u2014 it helps your doctor see the full picture.",
+          "question": "Are you managing to take your medicines at the right times each day?"
+        },
+        {
+          "role": "user",
+          "content": "I think I hurt my leg",
+          "timestamp": "2026-06-07T04:56:15.841529+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm glad you shared that \u2014 it takes honesty to talk about how things really feel. How has your sleep been this week \u2014 resting well or waking often?",
+          "timestamp": "2026-06-07T04:56:15.842061+00:00",
+          "emotional_support": "I'm glad you shared that \u2014 it takes honesty to talk about how things really feel.",
+          "question": "How has your sleep been this week \u2014 resting well or waking often?"
+        }
+      ],
+      "user_turns": 3,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately. How have your tremor or stiffness been since your last visit?"
+          },
+          {
+            "role": "user",
+            "content": "honestly no idea"
+          },
+          {
+            "role": "assistant",
+            "content": "I want to make sure I understand you properly \u2014 no rush, take your time. How have your tremor or stiffness been since your last visit?"
+          },
+          {
+            "role": "user",
+            "content": "honestly no idea maybe"
+          },
+          {
+            "role": "assistant",
+            "content": "Thank you for explaining that \u2014 it helps your doctor see the full picture. Are you managing to take your medicines at the right times each day?"
+          },
+          {
+            "role": "user",
+            "content": "I think I hurt my leg"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm glad you shared that \u2014 it takes honesty to talk about how things really feel. How has your sleep been this week \u2014 resting well or waking often?"
+          }
+        ],
+        "follow_ups_asked": 3,
+        "questions_log": [
+          "How have your tremor or stiffness been since your last visit?",
+          "Are you managing to take your medicines at the right times each day?",
+          "How has your sleep been this week \u2014 resting well or waking often?"
+        ],
+        "complete": false
+      }
+    },
+    "7258f1b9-8e57-47b6-81a7-52e7f4252cc6": {
+      "session_id": "7258f1b9-8e57-47b6-81a7-52e7f4252cc6",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T04:56:27.644521+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately. How have your tremor or stiffness been since your last visit?",
+          "timestamp": "2026-06-07T04:56:27.645464+00:00",
+          "emotional_support": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately.",
+          "question": "How have your tremor or stiffness been since your last visit?"
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Hello, Mr. Hans Keller. I'm here to listen \u2014 let's check in on how you've been feeling lately. How have your tremor or stiffness been since your last visit?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "How have your tremor or stiffness been since your last visit?"
+        ],
+        "complete": false
+      }
+    },
+    "1c016538-da18-4084-a122-381204922989": {
+      "session_id": "1c016538-da18-4084-a122-381204922989",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:03:39.890466+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Hello Mr. Keller! It's great to connect with you today. I'm here to support you in any way I can. How have your symptoms been lately, like your tremors or stiffness?",
+          "timestamp": "2026-06-07T05:03:42.954492+00:00",
+          "emotional_support": "Hello Mr. Keller! It's great to connect with you today. I'm here to support you in any way I can.",
+          "question": "How have your symptoms been lately, like your tremors or stiffness?"
+        },
+        {
+          "role": "user",
+          "content": "I have no idea",
+          "timestamp": "2026-06-07T05:04:00.068717+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I want to make sure I understand your experience better, Mr. Keller. It's completely okay to feel unsure about your symptoms sometimes. Can you share how your breathing has been lately? Any feelings of breathlessness or changes in your energy levels?",
+          "timestamp": "2026-06-07T05:04:02.378221+00:00",
+          "emotional_support": "I want to make sure I understand your experience better, Mr. Keller. It's completely okay to feel unsure about your symptoms sometimes.",
+          "question": "Can you share how your breathing has been lately? Any feelings of breathlessness or changes in your energy levels?"
+        },
+        {
+          "role": "user",
+          "content": "I think I broke my leg",
+          "timestamp": "2026-06-07T05:04:27.226082+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm really sorry to hear that you think you might have broken your leg, Mr. Keller. That must be very concerning for you. It's important to get that checked out. Have you been able to see a doctor about your leg, or do you need help arranging that?",
+          "timestamp": "2026-06-07T05:04:29.010318+00:00",
+          "emotional_support": "I'm really sorry to hear that you think you might have broken your leg, Mr. Keller. That must be very concerning for you. It's important to get that checked out.",
+          "question": "Have you been able to see a doctor about your leg, or do you need help arranging that?"
+        }
+      ],
+      "user_turns": 2,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Hello Mr. Keller! It's great to connect with you today. I'm here to support you in any way I can. How have your symptoms been lately, like your tremors or stiffness?"
+          },
+          {
+            "role": "user",
+            "content": "I have no idea"
+          },
+          {
+            "role": "assistant",
+            "content": "I want to make sure I understand your experience better, Mr. Keller. It's completely okay to feel unsure about your symptoms sometimes. Can you share how your breathing has been lately? Any feelings of breathlessness or changes in your energy levels?"
+          },
+          {
+            "role": "user",
+            "content": "I think I broke my leg"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that you think you might have broken your leg, Mr. Keller. That must be very concerning for you. It's important to get that checked out. Have you been able to see a doctor about your leg, or do you need help arranging that?"
+          }
+        ],
+        "follow_ups_asked": 2,
+        "questions_log": [
+          "How have your symptoms been lately, like your tremors or stiffness?",
+          "Have you been able to see a doctor about your leg, or do you need help arranging that?"
+        ],
+        "complete": false
+      }
+    },
+    "ec29780f-6f31-45a7-99a8-f5989d5b8ad8": {
+      "session_id": "ec29780f-6f31-45a7-99a8-f5989d5b8ad8",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:08:27.190480+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "It's great to connect with you, Mr. Keller. How have you been feeling lately? Are you experiencing any tremors, stiffness, or breathlessness right now?",
+          "timestamp": "2026-06-07T05:08:29.674344+00:00",
+          "emotional_support": "It's great to connect with you, Mr. Keller. How have you been feeling lately?",
+          "question": "Are you experiencing any tremors, stiffness, or breathlessness right now?"
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "It's great to connect with you, Mr. Keller. How have you been feeling lately? Are you experiencing any tremors, stiffness, or breathlessness right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Are you experiencing any tremors, stiffness, or breathlessness right now?"
+        ],
+        "complete": false
+      }
+    },
+    "17095d3d-e299-473a-a5f7-f7b78a606556": {
+      "session_id": "17095d3d-e299-473a-a5f7-f7b78a606556",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:08:31.184517+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "It's great to connect with you today, Mr. Keller. How have your tremors or stiffness been affecting your daily activities lately?",
+          "timestamp": "2026-06-07T05:08:33.399146+00:00",
+          "emotional_support": "It's great to connect with you today, Mr. Keller.",
+          "question": "How have your tremors or stiffness been affecting your daily activities lately?"
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "It's great to connect with you today, Mr. Keller. How have your tremors or stiffness been affecting your daily activities lately?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "How have your tremors or stiffness been affecting your daily activities lately?"
+        ],
+        "complete": false
+      }
+    },
+    "6fe795f5-59d2-490e-b31a-1eee85463a30": {
+      "session_id": "6fe795f5-59d2-490e-b31a-1eee85463a30",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:10:14.244965+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:10:14.246378+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "bro I think I broke my leg",
+          "timestamp": "2026-06-07T05:10:21.273213+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm really sorry to hear that you're in pain, Mr. Keller. Are you experiencing any difficulty breathing or moving because of your leg?",
+          "timestamp": "2026-06-07T05:10:24.036883+00:00",
+          "emotional_support": "I'm really sorry to hear that you're in pain, Mr. Keller.",
+          "question": "Are you experiencing any difficulty breathing or moving because of your leg?"
+        },
+        {
+          "role": "user",
+          "content": "I can't stand",
+          "timestamp": "2026-06-07T05:10:40.997966+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "That sounds really difficult, Mr. Keller. I hope you can find some relief soon. Are you having any trouble with your mood or energy levels?",
+          "timestamp": "2026-06-07T05:10:42.453878+00:00",
+          "emotional_support": "That sounds really difficult, Mr. Keller. I hope you can find some relief soon.",
+          "question": "Are you having any trouble with your mood or energy levels?"
+        },
+        {
+          "role": "user",
+          "content": "I don't think it's",
+          "timestamp": "2026-06-07T05:11:01.958872+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel uncertain about your condition, Mr. Keller. How is your sleep quality affecting your daily activities?",
+          "timestamp": "2026-06-07T05:11:03.386063+00:00",
+          "emotional_support": "It's understandable to feel uncertain about your condition, Mr. Keller.",
+          "question": "How is your sleep quality affecting your daily activities?"
+        }
+      ],
+      "user_turns": 3,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "bro I think I broke my leg"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that you're in pain, Mr. Keller. Are you experiencing any difficulty breathing or moving because of your leg?"
+          },
+          {
+            "role": "user",
+            "content": "I can't stand"
+          },
+          {
+            "role": "assistant",
+            "content": "That sounds really difficult, Mr. Keller. I hope you can find some relief soon. Are you having any trouble with your mood or energy levels?"
+          },
+          {
+            "role": "user",
+            "content": "I don't think it's"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel uncertain about your condition, Mr. Keller. How is your sleep quality affecting your daily activities?"
+          }
+        ],
+        "follow_ups_asked": 3,
+        "questions_log": [
+          "Are you experiencing any difficulty breathing or moving because of your leg?",
+          "Are you having any trouble with your mood or energy levels?",
+          "How is your sleep quality affecting your daily activities?"
+        ],
+        "complete": false,
+        "greeting_done": true
+      }
+    },
+    "ce83c0c4-dd43-4e85-be1b-c89356e7f932": {
+      "session_id": "ce83c0c4-dd43-4e85-be1b-c89356e7f932",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:12:15.601213+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:12:15.602168+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "9c477722-1a8c-4088-9feb-d522363a33e0": {
+      "session_id": "9c477722-1a8c-4088-9feb-d522363a33e0",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:12:31.911029+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:12:31.911966+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "I think I can't stand",
+          "timestamp": "2026-06-07T05:12:39.874113+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's concerning to hear you feel you can't stand, Mr. Keller. Can you describe when you first noticed this difficulty standing?",
+          "timestamp": "2026-06-07T05:12:41.627212+00:00",
+          "emotional_support": "It's concerning to hear you feel you can't stand, Mr. Keller.",
+          "question": "Can you describe when you first noticed this difficulty standing?"
+        },
+        {
+          "role": "user",
+          "content": "like 2 minutes ago",
+          "timestamp": "2026-06-07T05:12:55.151611+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel alarmed when you can't stand suddenly. Was there anything specific that triggered this difficulty standing?",
+          "timestamp": "2026-06-07T05:12:56.385697+00:00",
+          "emotional_support": "It's understandable to feel alarmed when you can't stand suddenly.",
+          "question": "Was there anything specific that triggered this difficulty standing?"
+        },
+        {
+          "role": "user",
+          "content": "I have no idea",
+          "timestamp": "2026-06-07T05:13:11.884891+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's okay not to know what triggered this; let's explore it further. How severe is the difficulty standing? Can you describe it more?",
+          "timestamp": "2026-06-07T05:13:13.052138+00:00",
+          "emotional_support": "It's okay not to know what triggered this; let's explore it further.",
+          "question": "How severe is the difficulty standing? Can you describe it more?"
+        },
+        {
+          "role": "user",
+          "content": "maybe I can't stand with my right leg but the left leg is fine",
+          "timestamp": "2026-06-07T05:13:34.391079+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel concerned about your right leg not supporting you. How does this difficulty affect your daily activities or mobility?",
+          "timestamp": "2026-06-07T05:13:36.077853+00:00",
+          "emotional_support": "It's understandable to feel concerned about your right leg not supporting you.",
+          "question": "How does this difficulty affect your daily activities or mobility?"
+        },
+        {
+          "role": "user",
+          "content": "no idea",
+          "timestamp": "2026-06-07T05:13:51.580741+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's okay not to know how this affects your daily activities, Mr. Keller. Can you share if you feel safe moving around your home?",
+          "timestamp": "2026-06-07T05:13:53.165480+00:00",
+          "emotional_support": "It's okay not to know how this affects your daily activities, Mr. Keller.",
+          "question": "Can you share if you feel safe moving around your home?"
+        },
+        {
+          "role": "user",
+          "content": "yes",
+          "timestamp": "2026-06-07T05:14:10.866015+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's okay not to know how this affects your daily activities, Mr. Keller. Can you describe if you feel unsteady or afraid to fall when standing?",
+          "timestamp": "2026-06-07T05:14:12.753719+00:00",
+          "emotional_support": "It's okay not to know how this affects your daily activities, Mr. Keller.",
+          "question": "Can you describe if you feel unsteady or afraid to fall when standing?"
+        },
+        {
+          "role": "user",
+          "content": "unsteady",
+          "timestamp": "2026-06-07T05:14:32.160007+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel unsteady when trying to stand, Mr. Keller.",
+          "timestamp": "2026-06-07T05:14:33.379082+00:00",
+          "emotional_support": "It's understandable to feel unsteady when trying to stand, Mr. Keller."
+        }
+      ],
+      "user_turns": 7,
+      "complete": true,
+      "classified": true,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "I think I can't stand"
+          },
+          {
+            "role": "assistant",
+            "content": "It's concerning to hear you feel you can't stand, Mr. Keller. Can you describe when you first noticed this difficulty standing?"
+          },
+          {
+            "role": "user",
+            "content": "like 2 minutes ago"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel alarmed when you can't stand suddenly. Was there anything specific that triggered this difficulty standing?"
+          },
+          {
+            "role": "user",
+            "content": "I have no idea"
+          },
+          {
+            "role": "assistant",
+            "content": "It's okay not to know what triggered this; let's explore it further. How severe is the difficulty standing? Can you describe it more?"
+          },
+          {
+            "role": "user",
+            "content": "maybe I can't stand with my right leg but the left leg is fine"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel concerned about your right leg not supporting you. How does this difficulty affect your daily activities or mobility?"
+          },
+          {
+            "role": "user",
+            "content": "no idea"
+          },
+          {
+            "role": "assistant",
+            "content": "It's okay not to know how this affects your daily activities, Mr. Keller. Can you share if you feel safe moving around your home?"
+          },
+          {
+            "role": "user",
+            "content": "yes"
+          },
+          {
+            "role": "assistant",
+            "content": "It's okay not to know how this affects your daily activities, Mr. Keller. Can you describe if you feel unsteady or afraid to fall when standing?"
+          },
+          {
+            "role": "user",
+            "content": "unsteady"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel unsteady when trying to stand, Mr. Keller."
+          }
+        ],
+        "follow_ups_asked": 5,
+        "questions_log": [
+          "Can you describe when you first noticed this difficulty standing?",
+          "Was there anything specific that triggered this difficulty standing?",
+          "How severe is the difficulty standing? Can you describe it more?",
+          "How does this difficulty affect your daily activities or mobility?",
+          "Have you experienced this unsteadiness before, or is this new for you?"
+        ],
+        "complete": true,
+        "greeting_done": true,
+        "main_concern": "I think I can't stand"
+      },
+      "completed_at": "2026-06-07T05:14:33.380330+00:00",
+      "alerts_generated": [
+        {
+          "event": "difficulty standing",
+          "detail": "Patient feels they can't stand, specifically stating difficulty with the right leg.",
+          "reason": "This could indicate worsening motor symptoms or potential falls risk.",
+          "clinical_relevance": "Doctor should evaluate the patient's motor function and assess for fall risk.",
+          "timestamp": "2026-06-07T05:14:35.620930+00:00",
+          "source": "voice_chat",
+          "red_flag": true,
+          "urgency": "today",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "9c477722-1a8c-4088-9feb-d522363a33e0"
+        },
+        {
+          "event": "preventive check-in",
+          "detail": "Routine check-in with no significant concerns reported.",
+          "reason": "Regular monitoring is important for managing Parkinson's disease.",
+          "clinical_relevance": "Encourage ongoing communication and assessment of symptoms.",
+          "timestamp": "2026-06-07T05:14:35.620970+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "preventive",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "9c477722-1a8c-4088-9feb-d522363a33e0"
+        }
+      ]
+    },
+    "3a7fa0d6-fb1f-4d52-acdd-2e1c7ac9ff78": {
+      "session_id": "3a7fa0d6-fb1f-4d52-acdd-2e1c7ac9ff78",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:17:15.741555+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:17:15.742482+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "3d9ee31a-40dc-4a70-b304-b4b623257d44": {
+      "session_id": "3d9ee31a-40dc-4a70-b304-b4b623257d44",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:18:29.984021+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:18:29.985893+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "amen I think I'm feeling sick and I don't know what to do and all I have done is",
+          "timestamp": "2026-06-07T05:18:42.679252+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's tough to feel sick and uncertain about what to do, Mr. Keller. Can you describe what symptoms you're experiencing right now?",
+          "timestamp": "2026-06-07T05:18:44.201600+00:00",
+          "emotional_support": "It's tough to feel sick and uncertain about what to do, Mr. Keller.",
+          "question": "Can you describe what symptoms you're experiencing right now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "amen I think I'm feeling sick and I don't know what to do and all I have done is"
+          },
+          {
+            "role": "assistant",
+            "content": "It's tough to feel sick and uncertain about what to do, Mr. Keller. Can you describe what symptoms you're experiencing right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you describe what symptoms you're experiencing right now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "amen I think I'm feeling sick and I don't know what to do and all I have done is"
+      }
+    },
+    "f2f653a0-05aa-4182-b947-e783f0ad99b0": {
+      "session_id": "f2f653a0-05aa-4182-b947-e783f0ad99b0",
+      "subject_id": "004",
+      "doctor": "Dr. Stefan Vogel",
+      "started_at": "2026-06-07T05:20:23.873999+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:20:23.875060+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "here  that  can you can you hear me yeah I think you hear me but I want to say that  do they have felt very sick and  I drank a lot of water and  now I feel even more safe  I mean  sick  I feel sick",
+          "timestamp": "2026-06-07T05:21:17.071714+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm sorry to hear you're feeling very sick after drinking water. How long have you been feeling this way after drinking water?",
+          "timestamp": "2026-06-07T05:21:18.418453+00:00",
+          "emotional_support": "I'm sorry to hear you're feeling very sick after drinking water.",
+          "question": "How long have you been feeling this way after drinking water?"
+        },
+        {
+          "role": "user",
+          "content": "yeah",
+          "timestamp": "2026-06-07T05:21:59.605305+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand you're feeling very sick after drinking water, and that's concerning. How long have you been feeling this way after drinking water?",
+          "timestamp": "2026-06-07T05:22:00.892121+00:00",
+          "emotional_support": "I understand you're feeling very sick after drinking water, and that's concerning.",
+          "question": "How long have you been feeling this way after drinking water?"
+        },
+        {
+          "role": "user",
+          "content": "for maybe about 15 minutes",
+          "timestamp": "2026-06-07T05:22:23.758902+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's tough to feel sick, especially after drinking water. I'm here for you. Can you describe what symptoms you're experiencing after drinking the water?",
+          "timestamp": "2026-06-07T05:22:25.318208+00:00",
+          "emotional_support": "It's tough to feel sick, especially after drinking water. I'm here for you.",
+          "question": "Can you describe what symptoms you're experiencing after drinking the water?"
+        },
+        {
+          "role": "user",
+          "content": "dizziness and  nausea that's it",
+          "timestamp": "2026-06-07T05:22:52.183128+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's concerning to hear you're experiencing dizziness and nausea after drinking water. Have you had any similar episodes before drinking water?",
+          "timestamp": "2026-06-07T05:22:54.117265+00:00",
+          "emotional_support": "It's concerning to hear you're experiencing dizziness and nausea after drinking water.",
+          "question": "Have you had any similar episodes before drinking water?"
+        },
+        {
+          "role": "user",
+          "content": "no no I was feeling very very healthy very fine",
+          "timestamp": "2026-06-07T05:23:13.537490+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's great to hear you were feeling very healthy before this episode. Have you eaten anything recently that might have caused this reaction?",
+          "timestamp": "2026-06-07T05:23:14.836820+00:00",
+          "emotional_support": "It's great to hear you were feeling very healthy before this episode.",
+          "question": "Have you eaten anything recently that might have caused this reaction?"
+        },
+        {
+          "role": "user",
+          "content": "I mean I ordered takeaway so maybe that was an issue",
+          "timestamp": "2026-06-07T05:23:33.369706+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'll forward this to your doctor for your next visit.",
+          "timestamp": "2026-06-07T05:23:34.511968+00:00",
+          "emotional_support": "I'll forward this to your doctor for your next visit."
+        }
+      ],
+      "user_turns": 6,
+      "complete": true,
+      "classified": true,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "here  that  can you can you hear me yeah I think you hear me but I want to say that  do they have felt very sick and  I drank a lot of water and  now I feel even more safe  I mean  sick  I feel sick"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm sorry to hear you're feeling very sick after drinking water. How long have you been feeling this way after drinking water?"
+          },
+          {
+            "role": "user",
+            "content": "yeah"
+          },
+          {
+            "role": "assistant",
+            "content": "I understand you're feeling very sick after drinking water, and that's concerning. How long have you been feeling this way after drinking water?"
+          },
+          {
+            "role": "user",
+            "content": "for maybe about 15 minutes"
+          },
+          {
+            "role": "assistant",
+            "content": "It's tough to feel sick, especially after drinking water. I'm here for you. Can you describe what symptoms you're experiencing after drinking the water?"
+          },
+          {
+            "role": "user",
+            "content": "dizziness and  nausea that's it"
+          },
+          {
+            "role": "assistant",
+            "content": "It's concerning to hear you're experiencing dizziness and nausea after drinking water. Have you had any similar episodes before drinking water?"
+          },
+          {
+            "role": "user",
+            "content": "no no I was feeling very very healthy very fine"
+          },
+          {
+            "role": "assistant",
+            "content": "It's great to hear you were feeling very healthy before this episode. Have you eaten anything recently that might have caused this reaction?"
+          },
+          {
+            "role": "user",
+            "content": "I mean I ordered takeaway so maybe that was an issue"
+          },
+          {
+            "role": "assistant",
+            "content": "I'll forward this to your doctor for your next visit."
+          }
+        ],
+        "follow_ups_asked": 5,
+        "questions_log": [
+          "How long have you been feeling this way after drinking water?",
+          "Can you describe what symptoms you're experiencing after drinking the water?",
+          "Have you had any similar episodes before drinking water?",
+          "Have you eaten anything recently that might have caused this reaction?",
+          "How did the takeaway food make you feel before drinking the water?"
+        ],
+        "complete": true,
+        "greeting_done": true,
+        "main_concern": "here  that  can you can you hear me yeah I think you hear me but I want to say that  do they have felt very sick and  I drank a lot of water and  now I feel even more safe  I mean  sick  I feel sick"
+      },
+      "completed_at": "2026-06-07T05:23:34.513211+00:00",
+      "matched_doctor": "Dr. Stefan Vogel",
+      "doctor_title": "Neuropsychiatry",
+      "doctor_match_reason": "The patient is experiencing dizziness and nausea, which may relate to emotional distress or anxiety.",
+      "alerts_generated": [
+        {
+          "event": "Nausea and Dizziness After Drinking Water",
+          "detail": "The patient reported feeling sick, experiencing dizziness and nausea after drinking water.",
+          "reason": "These symptoms could indicate a potential gastrointestinal issue or dehydration, which can be concerning for a Parkinson's patient.",
+          "clinical_relevance": "Consider evaluating the patient's hydration status and gastrointestinal health, especially in light of the reported takeaway food.",
+          "timestamp": "2026-06-07T05:23:39.082344+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "this_week",
+          "assigned_doctor": "Dr. Stefan Vogel",
+          "session_id": "f2f653a0-05aa-4182-b947-e783f0ad99b0"
+        },
+        {
+          "event": "Routine Check-in",
+          "detail": "The patient has reported feeling healthy prior to the recent episode.",
+          "reason": "Routine monitoring of the patient's overall health is important for managing Parkinson's disease.",
+          "clinical_relevance": "Continue to monitor non-motor symptoms and overall health status.",
+          "timestamp": "2026-06-07T05:23:39.082384+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "preventive",
+          "assigned_doctor": "Dr. Stefan Vogel",
+          "session_id": "f2f653a0-05aa-4182-b947-e783f0ad99b0"
+        }
+      ]
+    },
+    "f0c2f723-3c4f-49e5-b68c-4015e5c8ed87": {
+      "session_id": "f0c2f723-3c4f-49e5-b68c-4015e5c8ed87",
+      "subject_id": "004",
+      "doctor": "Dr. Stefan Vogel",
+      "started_at": "2026-06-07T05:25:21.283181+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:25:21.285267+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "I think I have a neurological issue at the moment",
+          "timestamp": "2026-06-07T05:25:35.680146+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's concerning to hear you feel you have a neurological issue right now. Can you describe what symptoms you're experiencing with this neurological issue?",
+          "timestamp": "2026-06-07T05:25:37.141597+00:00",
+          "emotional_support": "It's concerning to hear you feel you have a neurological issue right now.",
+          "question": "Can you describe what symptoms you're experiencing with this neurological issue?"
+        },
+        {
+          "role": "user",
+          "content": "I think I washed a very horror movie and now I cannot sleep",
+          "timestamp": "2026-06-07T05:25:59.809753+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel anxious after watching a horror movie. How long have you been feeling this way since watching the movie?",
+          "timestamp": "2026-06-07T05:26:01.964863+00:00",
+          "emotional_support": "It's understandable to feel anxious after watching a horror movie.",
+          "question": "How long have you been feeling this way since watching the movie?"
+        },
+        {
+          "role": "user",
+          "content": "it has been 1 hour",
+          "timestamp": "2026-06-07T05:26:17.385436+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's tough to feel this way after a horror movie, especially at night. Are you experiencing any other symptoms besides trouble sleeping?",
+          "timestamp": "2026-06-07T05:26:18.757473+00:00",
+          "emotional_support": "It's tough to feel this way after a horror movie, especially at night.",
+          "question": "Are you experiencing any other symptoms besides trouble sleeping?"
+        },
+        {
+          "role": "user",
+          "content": "that's it",
+          "timestamp": "2026-06-07T05:26:36.240930+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel anxious after a horror movie, especially at night. How severe is your anxiety or distress right now?",
+          "timestamp": "2026-06-07T05:26:37.427369+00:00",
+          "emotional_support": "It's understandable to feel anxious after a horror movie, especially at night.",
+          "question": "How severe is your anxiety or distress right now?"
+        },
+        {
+          "role": "user",
+          "content": "maybe you from the scale of 1 to 5 it's 3",
+          "timestamp": "2026-06-07T05:26:57.560887+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'll forward this to your doctor for your next visit.",
+          "timestamp": "2026-06-07T05:26:59.230099+00:00",
+          "emotional_support": "I'll forward this to your doctor for your next visit."
+        }
+      ],
+      "user_turns": 5,
+      "complete": true,
+      "classified": true,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "I think I have a neurological issue at the moment"
+          },
+          {
+            "role": "assistant",
+            "content": "It's concerning to hear you feel you have a neurological issue right now. Can you describe what symptoms you're experiencing with this neurological issue?"
+          },
+          {
+            "role": "user",
+            "content": "I think I washed a very horror movie and now I cannot sleep"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel anxious after watching a horror movie. How long have you been feeling this way since watching the movie?"
+          },
+          {
+            "role": "user",
+            "content": "it has been 1 hour"
+          },
+          {
+            "role": "assistant",
+            "content": "It's tough to feel this way after a horror movie, especially at night. Are you experiencing any other symptoms besides trouble sleeping?"
+          },
+          {
+            "role": "user",
+            "content": "that's it"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel anxious after a horror movie, especially at night. How severe is your anxiety or distress right now?"
+          },
+          {
+            "role": "user",
+            "content": "maybe you from the scale of 1 to 5 it's 3"
+          },
+          {
+            "role": "assistant",
+            "content": "I'll forward this to your doctor for your next visit."
+          }
+        ],
+        "follow_ups_asked": 5,
+        "questions_log": [
+          "Can you describe what symptoms you're experiencing with this neurological issue?",
+          "How long have you been feeling this way since watching the movie?",
+          "Are you experiencing any other symptoms besides trouble sleeping?",
+          "How severe is your anxiety or distress right now?",
+          "What do you think triggered this anxiety about your neurological issue?"
+        ],
+        "complete": true,
+        "greeting_done": true,
+        "main_concern": "I think I have a neurological issue at the moment"
+      },
+      "completed_at": "2026-06-07T05:26:59.231262+00:00",
+      "matched_doctor": "Dr. Stefan Vogel",
+      "doctor_title": "Neuropsychiatry",
+      "doctor_match_reason": "This doctor specializes in sleep issues and emotional distress, which aligns with the patient's concerns.",
+      "alerts_generated": [
+        {
+          "event": "Routine Check-in",
+          "detail": "Patient expressed feeling anxious after watching a horror movie, leading to trouble sleeping.",
+          "reason": "Anxiety can exacerbate Parkinson's symptoms and affect overall well-being.",
+          "clinical_relevance": "Consider discussing coping strategies for anxiety and sleep disturbances in the next appointment.",
+          "timestamp": "2026-06-07T05:27:02.317746+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "preventive",
+          "assigned_doctor": "Dr. Stefan Vogel",
+          "session_id": "f0c2f723-3c4f-49e5-b68c-4015e5c8ed87"
+        }
+      ]
+    },
+    "cb9d4999-6219-4922-8e2d-35df5dc9265f": {
+      "session_id": "cb9d4999-6219-4922-8e2d-35df5dc9265f",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T05:58:42.987395+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T05:58:42.990560+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "abfd9f34-b1d3-4cb4-9d57-8ee4d9da8aa2": {
+      "session_id": "abfd9f34-b1d3-4cb4-9d57-8ee4d9da8aa2",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T06:10:04.919349+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T06:10:04.921406+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "c0f26484-c115-4585-9bf8-a77fe44a3fb4": {
+      "session_id": "c0f26484-c115-4585-9bf8-a77fe44a3fb4",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:35:25.352237+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:35:25.355086+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "amen amen I amen I broke amen I broke my amen I broke my leg amen I broke my leg",
+          "timestamp": "2026-06-07T07:35:41.206669+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm really sorry to hear that you broke your leg, Mr. Keller. When did you break your leg, and how does it feel now?",
+          "timestamp": "2026-06-07T07:35:44.612686+00:00",
+          "emotional_support": "I'm really sorry to hear that you broke your leg, Mr. Keller.",
+          "question": "When did you break your leg, and how does it feel now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "amen amen I amen I broke amen I broke my amen I broke my leg amen I broke my leg"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm really sorry to hear that you broke your leg, Mr. Keller. When did you break your leg, and how does it feel now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "When did you break your leg, and how does it feel now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "amen amen I amen I broke amen I broke my amen I broke my leg amen I broke my leg"
+      }
+    },
+    "9833d088-4103-4967-abd3-c673e77d66a0": {
+      "session_id": "9833d088-4103-4967-abd3-c673e77d66a0",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:36:03.802559+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:36:03.803469+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "cfbed06b-2edf-45e7-92ea-530b077a7974": {
+      "session_id": "cfbed06b-2edf-45e7-92ea-530b077a7974",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:43:53.202571+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:43:53.205009+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "609c75cf-c1de-4e4f-bffb-6ad8284f24dd": {
+      "session_id": "609c75cf-c1de-4e4f-bffb-6ad8284f24dd",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:44:38.341252+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:44:38.343450+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "eafc4f74-5b95-41f6-8095-f43ebc7c6737": {
+      "session_id": "eafc4f74-5b95-41f6-8095-f43ebc7c6737",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:44:51.884369+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:44:51.885051+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "dc5ba5a5-ed0a-4d01-8243-9163bbc00745": {
+      "session_id": "dc5ba5a5-ed0a-4d01-8243-9163bbc00745",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:45:09.376048+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:45:09.376667+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "4ec78ff2-70ca-4d80-a18f-ba87fb5956d6": {
+      "session_id": "4ec78ff2-70ca-4d80-a18f-ba87fb5956d6",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:45:17.882132+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:45:17.882847+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "hello hello hello hello hello I hello I had hello I had hello I had a hello I had a hello I had a parking hello I had a parking",
+          "timestamp": "2026-06-07T07:45:31.446871+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand you're expressing something about parking, and that's important. Can you tell me more about what happened with parking?",
+          "timestamp": "2026-06-07T07:45:33.323083+00:00",
+          "emotional_support": "I understand you're expressing something about parking, and that's important.",
+          "question": "Can you tell me more about what happened with parking?"
+        },
+        {
+          "role": "user",
+          "content": "suffering suffering from suffering from suffering from passing suffering from passing attack suffering from passing attack",
+          "timestamp": "2026-06-07T07:46:01.280125+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm here to support you as you express your suffering from passing attacks. How often are you experiencing these passing attacks, Mr. Keller?",
+          "timestamp": "2026-06-07T07:46:02.797060+00:00",
+          "emotional_support": "I'm here to support you as you express your suffering from passing attacks.",
+          "question": "How often are you experiencing these passing attacks, Mr. Keller?"
+        }
+      ],
+      "user_turns": 2,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "hello hello hello hello hello I hello I had hello I had hello I had a hello I had a hello I had a parking hello I had a parking"
+          },
+          {
+            "role": "assistant",
+            "content": "I understand you're expressing something about parking, and that's important. Can you tell me more about what happened with parking?"
+          },
+          {
+            "role": "user",
+            "content": "suffering suffering from suffering from suffering from passing suffering from passing attack suffering from passing attack"
+          },
+          {
+            "role": "assistant",
+            "content": "I'm here to support you as you express your suffering from passing attacks. How often are you experiencing these passing attacks, Mr. Keller?"
+          }
+        ],
+        "follow_ups_asked": 2,
+        "questions_log": [
+          "Can you tell me more about what happened with parking?",
+          "How often are you experiencing these passing attacks, Mr. Keller?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "hello hello hello hello hello I hello I had hello I had hello I had a hello I had a hello I had a parking hello I had a parking"
+      }
+    },
+    "e3344d04-0391-4258-8c7b-5ea75adbed71": {
+      "session_id": "e3344d04-0391-4258-8c7b-5ea75adbed71",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:46:13.771574+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:46:13.772556+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "c79f4d65-b93f-450c-9a82-9f2df7df670b": {
+      "session_id": "c79f4d65-b93f-450c-9a82-9f2df7df670b",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:47:15.340340+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:47:15.341025+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "I I think I think I think I think I I think I I think I I think I had I think I had I think I had a I think I had a I think I had a Parkinson I think I had a Parkinson attack",
+          "timestamp": "2026-06-07T07:47:28.326209+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like you're feeling quite concerned about a possible Parkinson's attack. Can you tell me when this attack happened and how severe it felt?",
+          "timestamp": "2026-06-07T07:47:30.303927+00:00",
+          "emotional_support": "It sounds like you're feeling quite concerned about a possible Parkinson's attack.",
+          "question": "Can you tell me when this attack happened and how severe it felt?"
+        },
+        {
+          "role": "user",
+          "content": "smart smart smart watch with the ca",
+          "timestamp": "2026-06-07T07:48:10.969127+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand you're feeling anxious about what you think was a Parkinson's attack. What specific symptoms did you experience during this attack?",
+          "timestamp": "2026-06-07T07:48:12.601929+00:00",
+          "emotional_support": "I understand you're feeling anxious about what you think was a Parkinson's attack.",
+          "question": "What specific symptoms did you experience during this attack?"
+        }
+      ],
+      "user_turns": 2,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "I I think I think I think I think I I think I I think I I think I had I think I had I think I had a I think I had a I think I had a Parkinson I think I had a Parkinson attack"
+          },
+          {
+            "role": "assistant",
+            "content": "It sounds like you're feeling quite concerned about a possible Parkinson's attack. Can you tell me when this attack happened and how severe it felt?"
+          },
+          {
+            "role": "user",
+            "content": "smart smart smart watch with the ca"
+          },
+          {
+            "role": "assistant",
+            "content": "I understand you're feeling anxious about what you think was a Parkinson's attack. What specific symptoms did you experience during this attack?"
+          }
+        ],
+        "follow_ups_asked": 2,
+        "questions_log": [
+          "Can you tell me when this attack happened and how severe it felt?",
+          "What specific symptoms did you experience during this attack?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "I I think I think I think I think I I think I I think I I think I had I think I had I think I had a I think I had a I think I had a Parkinson I think I had a Parkinson attack"
+      }
+    },
+    "a7a4e8de-9ff2-4733-988d-55833d41a045": {
+      "session_id": "a7a4e8de-9ff2-4733-988d-55833d41a045",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:48:07.569888+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:48:07.571886+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "f3d44b11-091e-4a5f-9741-e155a2fa5ce2": {
+      "session_id": "f3d44b11-091e-4a5f-9741-e155a2fa5ce2",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:48:28.523227+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:48:28.524074+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "9f137cc8-afe4-44e4-b75d-76edcbd997f0": {
+      "session_id": "9f137cc8-afe4-44e4-b75d-76edcbd997f0",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:49:04.314199+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:49:04.314831+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "ee4c79f4-a2ea-420e-9ece-da4de8f51e93": {
+      "session_id": "ee4c79f4-a2ea-420e-9ece-da4de8f51e93",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:49:37.928169+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:49:37.930182+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "do do you do you hear me",
+          "timestamp": "2026-06-07T07:49:56.136792+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I hear you, Mr. Keller, and I'm here to listen to your concerns. Can you tell me more about what you're experiencing right now?",
+          "timestamp": "2026-06-07T07:49:58.013573+00:00",
+          "emotional_support": "I hear you, Mr. Keller, and I'm here to listen to your concerns.",
+          "question": "Can you tell me more about what you're experiencing right now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "do do you do you hear me"
+          },
+          {
+            "role": "assistant",
+            "content": "I hear you, Mr. Keller, and I'm here to listen to your concerns. Can you tell me more about what you're experiencing right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you tell me more about what you're experiencing right now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "do do you do you hear me"
+      }
+    },
+    "7d5e7db8-94ec-43cf-b40e-e8cca2aa42ea": {
+      "session_id": "7d5e7db8-94ec-43cf-b40e-e8cca2aa42ea",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:50:00.803683+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:50:00.804959+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "67a0ed95-b39d-43ab-8fd0-32e6eecffbe0": {
+      "session_id": "67a0ed95-b39d-43ab-8fd0-32e6eecffbe0",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:50:01.553193+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:50:01.555072+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "do do you do you hear me",
+          "timestamp": "2026-06-07T07:50:11.241314+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I hear you, Mr. Keller, and I'm here to listen. Can you tell me more about what you're feeling right now?",
+          "timestamp": "2026-06-07T07:50:12.462731+00:00",
+          "emotional_support": "I hear you, Mr. Keller, and I'm here to listen.",
+          "question": "Can you tell me more about what you're feeling right now?"
+        },
+        {
+          "role": "user",
+          "content": "I'm I'm feeling I'm feeling sick",
+          "timestamp": "2026-06-07T07:50:27.407500+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand you're feeling sick, and I'm here to help you through this. Can you describe what symptoms you're experiencing that make you feel sick?",
+          "timestamp": "2026-06-07T07:50:29.361572+00:00",
+          "emotional_support": "I understand you're feeling sick, and I'm here to help you through this.",
+          "question": "Can you describe what symptoms you're experiencing that make you feel sick?"
+        }
+      ],
+      "user_turns": 2,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "do do you do you hear me"
+          },
+          {
+            "role": "assistant",
+            "content": "I hear you, Mr. Keller, and I'm here to listen. Can you tell me more about what you're feeling right now?"
+          },
+          {
+            "role": "user",
+            "content": "I'm I'm feeling I'm feeling sick"
+          },
+          {
+            "role": "assistant",
+            "content": "I understand you're feeling sick, and I'm here to help you through this. Can you describe what symptoms you're experiencing that make you feel sick?"
+          }
+        ],
+        "follow_ups_asked": 2,
+        "questions_log": [
+          "Can you tell me more about what you're feeling right now?",
+          "Can you describe what symptoms you're experiencing that make you feel sick?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "do do you do you hear me"
+      }
+    },
+    "bdcbafeb-fe3e-423b-851c-5ce137b4934e": {
+      "session_id": "bdcbafeb-fe3e-423b-851c-5ce137b4934e",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:52:16.580843+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:52:16.584091+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "bfa3c110-38cc-487f-bfcf-83279ec55b31": {
+      "session_id": "bfa3c110-38cc-487f-bfcf-83279ec55b31",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:52:38.612208+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:52:38.614412+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "I I feel I feel I I feel I I feel I am I feel I am having I feel I am having I feel I am having a I feel I am having a I feel I am having a I feel I am having a I feel I am having a particles I feel I am having a particles I feel I am having a particles in I feel I am having a particles in attack I feel I am having a particles in attack and I feel I am having a particles in attack and I feel I am having a particles in attack and I feel I am having a particles in attack and I I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am feeling I feel I am having a particles in attack and I am feeling I feel I am having a particles in attack and I am feeling coughing I feel I am having a particles in attack and I am feeling coughing and I feel I am having a particles in attack and I am feeling coughing and all I feel I am having a particles in attack and I am feeling coughing and all",
+          "timestamp": "2026-06-07T07:52:56.529625+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds distressing to feel like you're having an attack with particles and coughing. Can you describe when these attacks started and how often they occur?",
+          "timestamp": "2026-06-07T07:52:58.101300+00:00",
+          "emotional_support": "It sounds distressing to feel like you're having an attack with particles and coughing.",
+          "question": "Can you describe when these attacks started and how often they occur?"
+        },
+        {
+          "role": "user",
+          "content": "right right right right now right now say anything okay",
+          "timestamp": "2026-06-07T07:53:17.438371+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's understandable to feel overwhelmed with what's happening right now. How severe is the coughing during these attacks? Is it constant or intermittent?",
+          "timestamp": "2026-06-07T07:53:18.777146+00:00",
+          "emotional_support": "It's understandable to feel overwhelmed with what's happening right now.",
+          "question": "How severe is the coughing during these attacks? Is it constant or intermittent?"
+        }
+      ],
+      "user_turns": 2,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "I I feel I feel I I feel I I feel I am I feel I am having I feel I am having I feel I am having a I feel I am having a I feel I am having a I feel I am having a I feel I am having a particles I feel I am having a particles I feel I am having a particles in I feel I am having a particles in attack I feel I am having a particles in attack and I feel I am having a particles in attack and I feel I am having a particles in attack and I feel I am having a particles in attack and I I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am I feel I am having a particles in attack and I am feeling I feel I am having a particles in attack and I am feeling I feel I am having a particles in attack and I am feeling coughing I feel I am having a particles in attack and I am feeling coughing and I feel I am having a particles in attack and I am feeling coughing and all I feel I am having a particles in attack and I am feeling coughing and all"
+          },
+          {
+            "role": "assistant",
+            "content": "It sounds distressing to feel like you're having an attack with particles and coughing. Can you describe when these attacks started and how often they occur?"
+          },
+          {
+            "role": "user",
+            "content": "right right right right now right now say anything okay"
+          },
+          {
+            "role": "assistant",
+            "content": "It's understandable to feel overwhelmed with what's happening right now. How severe is the coughing during these attacks? Is it constant or intermittent?"
+          }
+        ],
+        "follow_ups_asked": 2,
+        "questions_log": [
+          "Can you describe when these attacks started and how often they occur?",
+          "How severe is the coughing during these attacks? Is it constant or intermittent?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "I I feel I feel I I feel I I feel I am I feel I am having I feel I am having I feel I am having a I feel I am having a I feel I am having a I feel I am having a I feel I am having a particles I feel I am having a particles I feel I am havin"
+      }
+    },
+    "948e0454-b3ab-4714-8ee0-a236fa9bdc71": {
+      "session_id": "948e0454-b3ab-4714-8ee0-a236fa9bdc71",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:53:21.207737+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:53:21.210430+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "2618d5d4-8a4d-456c-81c0-417c686501ca": {
+      "session_id": "2618d5d4-8a4d-456c-81c0-417c686501ca",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:53:22.595330+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:53:22.596785+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "845fa2cf-f94c-4536-b7cc-540f12e2d6ee": {
+      "session_id": "845fa2cf-f94c-4536-b7cc-540f12e2d6ee",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T07:54:47.238208+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T07:54:47.240712+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "hello hello hello hello hello I hello I hello I think hello I think I hello I think I am hello I think I am hello I think I am having hello I think I am having hello I think I am having hello I think I am having a hello I think I am having a hello I think I am having a Parkinson hello I think I am having a Parkinson hello I think I am having a Parkinson attack",
+          "timestamp": "2026-06-07T07:55:03.670467+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like you're feeling very concerned about a Parkinson's attack. Can you describe what symptoms you're experiencing right now?",
+          "timestamp": "2026-06-07T07:55:05.742707+00:00",
+          "emotional_support": "It sounds like you're feeling very concerned about a Parkinson's attack.",
+          "question": "Can you describe what symptoms you're experiencing right now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "hello hello hello hello hello I hello I hello I think hello I think I hello I think I am hello I think I am hello I think I am having hello I think I am having hello I think I am having hello I think I am having a hello I think I am having a hello I think I am having a Parkinson hello I think I am having a Parkinson hello I think I am having a Parkinson attack"
+          },
+          {
+            "role": "assistant",
+            "content": "It sounds like you're feeling very concerned about a Parkinson's attack. Can you describe what symptoms you're experiencing right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you describe what symptoms you're experiencing right now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "hello hello hello hello hello I hello I hello I think hello I think I hello I think I am hello I think I am hello I think I am having hello I think I am having hello I think I am having hello I think I am having a hello I think I am having "
+      }
+    },
+    "d208616c-2179-4d37-9dbe-51e61b0b0f5c": {
+      "session_id": "d208616c-2179-4d37-9dbe-51e61b0b0f5c",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:21.887985+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:21.891422+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "ae2f097f-8f64-405a-901d-44f579c29573": {
+      "session_id": "ae2f097f-8f64-405a-901d-44f579c29573",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:22.156752+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:22.157567+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "You",
+          "timestamp": "2026-06-07T08:09:36.964137+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "It's important to focus on your feelings and concerns about yourself. Can you share more about what you're feeling or experiencing right now?",
+          "timestamp": "2026-06-07T08:09:38.610771+00:00",
+          "emotional_support": "It's important to focus on your feelings and concerns about yourself.",
+          "question": "Can you share more about what you're feeling or experiencing right now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "You"
+          },
+          {
+            "role": "assistant",
+            "content": "It's important to focus on your feelings and concerns about yourself. Can you share more about what you're feeling or experiencing right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you share more about what you're feeling or experiencing right now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "You"
+      }
+    },
+    "85d28342-503c-4804-a8da-14ed81851ab5": {
+      "session_id": "85d28342-503c-4804-a8da-14ed81851ab5",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:39.058438+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:39.059680+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "6dc4b651-9b76-493e-a355-e1a87596f150": {
+      "session_id": "6dc4b651-9b76-493e-a355-e1a87596f150",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:39.818050+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:39.818901+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "f2e63aad-8632-46aa-a500-c47c43e15242": {
+      "session_id": "f2e63aad-8632-46aa-a500-c47c43e15242",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:44.616033+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:44.617445+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "d4481710-48aa-42a6-be01-2375c2a651f1": {
+      "session_id": "d4481710-48aa-42a6-be01-2375c2a651f1",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:45.500815+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:45.502008+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "c105a93c-9bf3-4033-a5d6-c1f80e9684dd": {
+      "session_id": "c105a93c-9bf3-4033-a5d6-c1f80e9684dd",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:09:47.130186+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:09:47.131555+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "63fac02a-7d3d-4a22-a987-9dbaafca45cc": {
+      "session_id": "63fac02a-7d3d-4a22-a987-9dbaafca45cc",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:10:45.075907+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:10:45.079800+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "f3c2e513-d7fa-4b0c-8ab9-1ba0361d68e4": {
+      "session_id": "f3c2e513-d7fa-4b0c-8ab9-1ba0361d68e4",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:12:56.883085+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:12:56.885447+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "Amen.",
+          "timestamp": "2026-06-07T08:13:11.361029+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I hear you, Mr. Keller. It sounds like you're expressing something significant. Can you share more about what 'Amen' means for you right now?",
+          "timestamp": "2026-06-07T08:13:12.726907+00:00",
+          "emotional_support": "I hear you, Mr. Keller. It sounds like you're expressing something significant.",
+          "question": "Can you share more about what 'Amen' means for you right now?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "Amen."
+          },
+          {
+            "role": "assistant",
+            "content": "I hear you, Mr. Keller. It sounds like you're expressing something significant. Can you share more about what 'Amen' means for you right now?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you share more about what 'Amen' means for you right now?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "Amen."
+      }
+    },
+    "fa9d3753-0e82-45b9-a991-28a5703eb3b6": {
+      "session_id": "fa9d3753-0e82-45b9-a991-28a5703eb3b6",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:13:13.957611+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:13:13.960016+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "fe3d27f5-e340-48a2-a667-2ce2c89f17fd": {
+      "session_id": "fe3d27f5-e340-48a2-a667-2ce2c89f17fd",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:13:14.348112+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:13:14.349136+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "Hey man, I think I'm having an attack. I need help. I need help right now.",
+          "timestamp": "2026-06-07T08:13:45.657838+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I hear you, Mr. Keller, and I'm here to help you right now. Can you describe what you're feeling during this attack?",
+          "timestamp": "2026-06-07T08:13:47.317163+00:00",
+          "emotional_support": "I hear you, Mr. Keller, and I'm here to help you right now.",
+          "question": "Can you describe what you're feeling during this attack?"
+        }
+      ],
+      "user_turns": 1,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "Hey man, I think I'm having an attack. I need help. I need help right now."
+          },
+          {
+            "role": "assistant",
+            "content": "I hear you, Mr. Keller, and I'm here to help you right now. Can you describe what you're feeling during this attack?"
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you describe what you're feeling during this attack?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "Hey man, I think I'm having an attack. I need help. I need help right now."
+      }
+    },
+    "9846f277-8d86-4478-a1e4-353db45ea8fd": {
+      "session_id": "9846f277-8d86-4478-a1e4-353db45ea8fd",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:15:15.738327+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:15:15.742285+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "337c0cae-85f6-4773-bb0b-c24eec4f3f81": {
+      "session_id": "337c0cae-85f6-4773-bb0b-c24eec4f3f81",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:26:28.340358+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:26:28.343473+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "Hello, I had a Parkinson's attack right now. Can you just do something? I guess he doesn't understand it.",
+          "timestamp": "2026-06-07T08:26:51.280094+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm here for you, Mr. Keller, and I understand this is difficult. Can you describe what happened during the Parkinson's attack?",
+          "timestamp": "2026-06-07T08:26:52.730787+00:00",
+          "emotional_support": "I'm here for you, Mr. Keller, and I understand this is difficult.",
+          "question": "Can you describe what happened during the Parkinson's attack?"
+        },
+        {
+          "role": "user",
+          "content": "So I kind of fell down and I was so bumbling a lot, my hands were shaking a lot and I was I taken medicines but still it is not working.",
+          "timestamp": "2026-06-07T08:27:15.740638+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand that falling and shaking can be very distressing, Mr. Keller. How long did the shaking and falling last during the attack?",
+          "timestamp": "2026-06-07T08:27:17.673212+00:00",
+          "emotional_support": "I understand that falling and shaking can be very distressing, Mr. Keller.",
+          "question": "How long did the shaking and falling last during the attack?"
+        },
+        {
+          "role": "user",
+          "content": "It lasts for like one minute.",
+          "timestamp": "2026-06-07T08:27:34.844494+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand that this experience is very challenging for you, Mr. Keller. What do you think triggered this recent Parkinson's attack?",
+          "timestamp": "2026-06-07T08:27:36.550215+00:00",
+          "emotional_support": "I understand that this experience is very challenging for you, Mr. Keller.",
+          "question": "What do you think triggered this recent Parkinson's attack?"
+        },
+        {
+          "role": "user",
+          "content": "Okay, I'm not sure about it. I was just walking and suddenly it happened.",
+          "timestamp": "2026-06-07T08:27:55.037337+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand that this sudden attack is very unsettling for you, Mr. Keller. How did you feel immediately after the attack ended?",
+          "timestamp": "2026-06-07T08:27:56.811467+00:00",
+          "emotional_support": "I understand that this sudden attack is very unsettling for you, Mr. Keller.",
+          "question": "How did you feel immediately after the attack ended?"
+        },
+        {
+          "role": "user",
+          "content": "So after that someone helped me and picked me up and now I was feeling fine after that.",
+          "timestamp": "2026-06-07T08:28:18.670694+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'll forward this to your doctor for your next visit.",
+          "timestamp": "2026-06-07T08:28:20.295701+00:00",
+          "emotional_support": "I'll forward this to your doctor for your next visit."
+        }
+      ],
+      "user_turns": 5,
+      "complete": true,
+      "classified": true,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "Hello, I had a Parkinson's attack right now. Can you just do something? I guess he doesn't understand it."
+          },
+          {
+            "role": "assistant",
+            "content": "I'm here for you, Mr. Keller, and I understand this is difficult. Can you describe what happened during the Parkinson's attack?"
+          },
+          {
+            "role": "user",
+            "content": "So I kind of fell down and I was so bumbling a lot, my hands were shaking a lot and I was I taken medicines but still it is not working."
+          },
+          {
+            "role": "assistant",
+            "content": "I understand that falling and shaking can be very distressing, Mr. Keller. How long did the shaking and falling last during the attack?"
+          },
+          {
+            "role": "user",
+            "content": "It lasts for like one minute."
+          },
+          {
+            "role": "assistant",
+            "content": "I understand that this experience is very challenging for you, Mr. Keller. What do you think triggered this recent Parkinson's attack?"
+          },
+          {
+            "role": "user",
+            "content": "Okay, I'm not sure about it. I was just walking and suddenly it happened."
+          },
+          {
+            "role": "assistant",
+            "content": "I understand that this sudden attack is very unsettling for you, Mr. Keller. How did you feel immediately after the attack ended?"
+          },
+          {
+            "role": "user",
+            "content": "So after that someone helped me and picked me up and now I was feeling fine after that."
+          },
+          {
+            "role": "assistant",
+            "content": "I'll forward this to your doctor for your next visit."
+          }
+        ],
+        "follow_ups_asked": 5,
+        "questions_log": [
+          "Can you describe what happened during the Parkinson's attack?",
+          "How long did the shaking and falling last during the attack?",
+          "What do you think triggered this recent Parkinson's attack?",
+          "How did you feel immediately after the attack ended?",
+          "Have you noticed any changes in your daily activities after these attacks?"
+        ],
+        "complete": true,
+        "greeting_done": true,
+        "main_concern": "Hello, I had a Parkinson's attack right now. Can you just do something? I guess he doesn't understand it."
+      },
+      "completed_at": "2026-06-07T08:28:20.297565+00:00",
+      "matched_doctor": "Dr. Sarah M\u00fcller",
+      "doctor_title": "Movement Disorders Neurologist",
+      "doctor_match_reason": "She specializes in Parkinson's disease and can address the patient's motor fluctuations and medication issues.",
+      "alerts_generated": [
+        {
+          "event": "fall incident reported",
+          "detail": "The patient experienced a fall during a Parkinson's attack.",
+          "reason": "Falls can lead to serious injuries and indicate worsening motor control.",
+          "clinical_relevance": "Consider evaluating the patient's medication regimen and fall risk management.",
+          "timestamp": "2026-06-07T08:28:23.877391+00:00",
+          "source": "voice_chat",
+          "red_flag": true,
+          "urgency": "today",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "337c0cae-85f6-4773-bb0b-c24eec4f3f81"
+        },
+        {
+          "event": "routine check-in",
+          "detail": "Patient reported a recent Parkinson's attack but is feeling fine now.",
+          "reason": "Regular monitoring is essential for managing Parkinson's disease.",
+          "clinical_relevance": "Continue routine follow-up and assess for any changes in symptoms.",
+          "timestamp": "2026-06-07T08:28:23.877416+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "preventive",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "337c0cae-85f6-4773-bb0b-c24eec4f3f81"
+        }
+      ]
+    },
+    "38f11edc-6563-4130-996f-2f4c34271235": {
+      "session_id": "38f11edc-6563-4130-996f-2f4c34271235",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:30:32.471525+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:30:32.477171+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "e5b8258c-e582-42c0-99c9-0a8db78eacc4": {
+      "session_id": "e5b8258c-e582-42c0-99c9-0a8db78eacc4",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:44:58.678644+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:44:58.683416+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "641b0ece-028d-4aa7-a287-72ccbc01cb82": {
+      "session_id": "641b0ece-028d-4aa7-a287-72ccbc01cb82",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:45:17.926931+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:45:17.927881+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "1c25d745-5fbc-49c0-b296-7606b2982deb": {
+      "session_id": "1c25d745-5fbc-49c0-b296-7606b2982deb",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:45:34.832567+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:45:34.835471+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "85a68995-eb7c-45e7-b95e-b0e3088df35a": {
+      "session_id": "85a68995-eb7c-45e7-b95e-b0e3088df35a",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:45:49.596705+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:45:49.597660+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "I had a Parkinson's attack right now.",
+          "timestamp": "2026-06-07T08:46:07.814946+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand that experiencing a Parkinson's attack can be very distressing. How long did the attack last and how severe was it?",
+          "timestamp": "2026-06-07T08:46:09.516797+00:00",
+          "emotional_support": "I understand that experiencing a Parkinson's attack can be very distressing.",
+          "question": "How long did the attack last and how severe was it?"
+        },
+        {
+          "role": "user",
+          "content": "It lasts for around 2 minutes.",
+          "timestamp": "2026-06-07T08:46:25.983630+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I can see how distressing a 2-minute attack can be for you. Did you notice any specific triggers before the attack occurred?",
+          "timestamp": "2026-06-07T08:46:27.579098+00:00",
+          "emotional_support": "I can see how distressing a 2-minute attack can be for you.",
+          "question": "Did you notice any specific triggers before the attack occurred?"
+        },
+        {
+          "role": "user",
+          "content": "I was just walking but and then I fell and I was like shaking",
+          "timestamp": "2026-06-07T08:46:47.859556+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I can imagine how frightening it must have been to fall and shake. Have you experienced falls during attacks before this incident?",
+          "timestamp": "2026-06-07T08:46:50.260477+00:00",
+          "emotional_support": "I can imagine how frightening it must have been to fall and shake.",
+          "question": "Have you experienced falls during attacks before this incident?"
+        }
+      ],
+      "user_turns": 3,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "I had a Parkinson's attack right now."
+          },
+          {
+            "role": "assistant",
+            "content": "I understand that experiencing a Parkinson's attack can be very distressing. How long did the attack last and how severe was it?"
+          },
+          {
+            "role": "user",
+            "content": "It lasts for around 2 minutes."
+          },
+          {
+            "role": "assistant",
+            "content": "I can see how distressing a 2-minute attack can be for you. Did you notice any specific triggers before the attack occurred?"
+          },
+          {
+            "role": "user",
+            "content": "I was just walking but and then I fell and I was like shaking"
+          },
+          {
+            "role": "assistant",
+            "content": "I can imagine how frightening it must have been to fall and shake. Have you experienced falls during attacks before this incident?"
+          }
+        ],
+        "follow_ups_asked": 3,
+        "questions_log": [
+          "How long did the attack last and how severe was it?",
+          "Did you notice any specific triggers before the attack occurred?",
+          "Have you experienced falls during attacks before this incident?"
+        ],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": "I had a Parkinson's attack right now."
+      }
+    },
+    "eb7818c3-eb32-4d3f-b26c-649de041477b": {
+      "session_id": "eb7818c3-eb32-4d3f-b26c-649de041477b",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:47:31.440786+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:47:31.444535+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        }
+      ],
+      "user_turns": 0,
+      "complete": false,
+      "classified": false,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          }
+        ],
+        "follow_ups_asked": 0,
+        "questions_log": [],
+        "complete": false,
+        "greeting_done": true,
+        "main_concern": ""
+      }
+    },
+    "9ee07009-43d7-4635-b9a3-b46ac47ed82d": {
+      "session_id": "9ee07009-43d7-4635-b9a3-b46ac47ed82d",
+      "subject_id": "004",
+      "doctor": "Dr. Sarah M\u00fcller",
+      "started_at": "2026-06-07T08:47:41.695298+00:00",
+      "transcript": [
+        {
+          "role": "assistant",
+          "content": "Good day, Mr. Hans Keller.",
+          "timestamp": "2026-06-07T08:47:41.696859+00:00",
+          "emotional_support": "Good day, Mr. Hans Keller."
+        },
+        {
+          "role": "user",
+          "content": "Hello, I just had Parkinson's attack.",
+          "timestamp": "2026-06-07T08:47:52.545635+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'm sorry to hear you just had a Parkinson's attack; that must be distressing. Can you describe what happened during the attack?",
+          "timestamp": "2026-06-07T08:47:54.158377+00:00",
+          "emotional_support": "I'm sorry to hear you just had a Parkinson's attack; that must be distressing.",
+          "question": "Can you describe what happened during the attack?"
+        },
+        {
+          "role": "user",
+          "content": "Just shaking and it happened. Can you just notify to the doctor about my problem?",
+          "timestamp": "2026-06-07T08:48:14.037085+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "I'll forward this to your doctor for your next visit.",
+          "timestamp": "2026-06-07T08:48:14.037941+00:00",
+          "emotional_support": "I'll forward this to your doctor for your next visit."
+        }
+      ],
+      "user_turns": 2,
+      "complete": true,
+      "classified": true,
+      "llm_state": {
+        "history": [
+          {
+            "role": "assistant",
+            "content": "Good day, Mr. Hans Keller."
+          },
+          {
+            "role": "user",
+            "content": "Hello, I just had Parkinson's attack."
+          },
+          {
+            "role": "assistant",
+            "content": "I'm sorry to hear you just had a Parkinson's attack; that must be distressing. Can you describe what happened during the attack?"
+          },
+          {
+            "role": "user",
+            "content": "Just shaking and it happened. Can you just notify to the doctor about my problem?"
+          },
+          {
+            "role": "assistant",
+            "content": "I'll forward this to your doctor for your next visit."
+          }
+        ],
+        "follow_ups_asked": 1,
+        "questions_log": [
+          "Can you describe what happened during the attack?"
+        ],
+        "complete": true,
+        "greeting_done": true,
+        "main_concern": "Hello, I just had Parkinson's attack."
+      },
+      "completed_at": "2026-06-07T08:48:14.038870+00:00",
+      "matched_doctor": "Dr. Sarah M\u00fcller",
+      "doctor_title": "Movement Disorders Neurologist",
+      "doctor_match_reason": "She specializes in Parkinson's disease and related motor issues.",
+      "alerts_generated": [
+        {
+          "event": "Recent Parkinson's attack",
+          "detail": "Patient experienced shaking during a Parkinson's attack.",
+          "reason": "This indicates a potential exacerbation of Parkinson's symptoms that may require adjustment in management or treatment.",
+          "clinical_relevance": "Consider reviewing the patient's current treatment plan and assessing for any necessary changes.",
+          "timestamp": "2026-06-07T08:48:17.171438+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "this_week",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "9ee07009-43d7-4635-b9a3-b46ac47ed82d"
+        },
+        {
+          "event": "Routine check-in",
+          "detail": "Patient reported a recent Parkinson's attack but did not mention other concerns.",
+          "reason": "Regular monitoring is essential for managing Parkinson's disease effectively.",
+          "clinical_relevance": "Continue to monitor the patient's condition and ensure follow-up on reported symptoms.",
+          "timestamp": "2026-06-07T08:48:17.171464+00:00",
+          "source": "voice_chat",
+          "red_flag": false,
+          "urgency": "preventive",
+          "assigned_doctor": "Dr. Sarah M\u00fcller",
+          "session_id": "9ee07009-43d7-4635-b9a3-b46ac47ed82d"
+        }
+      ]
+    }
+  },
+  "patient_sessions": {
+    "004": [
+      "9b5afb43-7083-406b-8fd7-13bfa3f27aa6",
+      "7258f1b9-8e57-47b6-81a7-52e7f4252cc6",
+      "1c016538-da18-4084-a122-381204922989",
+      "ec29780f-6f31-45a7-99a8-f5989d5b8ad8",
+      "17095d3d-e299-473a-a5f7-f7b78a606556",
+      "6fe795f5-59d2-490e-b31a-1eee85463a30",
+      "ce83c0c4-dd43-4e85-be1b-c89356e7f932",
+      "9c477722-1a8c-4088-9feb-d522363a33e0",
+      "3a7fa0d6-fb1f-4d52-acdd-2e1c7ac9ff78",
+      "3d9ee31a-40dc-4a70-b304-b4b623257d44",
+      "f2f653a0-05aa-4182-b947-e783f0ad99b0",
+      "f0c2f723-3c4f-49e5-b68c-4015e5c8ed87",
+      "cb9d4999-6219-4922-8e2d-35df5dc9265f",
+      "abfd9f34-b1d3-4cb4-9d57-8ee4d9da8aa2",
+      "c0f26484-c115-4585-9bf8-a77fe44a3fb4",
+      "9833d088-4103-4967-abd3-c673e77d66a0",
+      "cfbed06b-2edf-45e7-92ea-530b077a7974",
+      "609c75cf-c1de-4e4f-bffb-6ad8284f24dd",
+      "eafc4f74-5b95-41f6-8095-f43ebc7c6737",
+      "dc5ba5a5-ed0a-4d01-8243-9163bbc00745",
+      "4ec78ff2-70ca-4d80-a18f-ba87fb5956d6",
+      "e3344d04-0391-4258-8c7b-5ea75adbed71",
+      "c79f4d65-b93f-450c-9a82-9f2df7df670b",
+      "a7a4e8de-9ff2-4733-988d-55833d41a045",
+      "f3d44b11-091e-4a5f-9741-e155a2fa5ce2",
+      "9f137cc8-afe4-44e4-b75d-76edcbd997f0",
+      "ee4c79f4-a2ea-420e-9ece-da4de8f51e93",
+      "7d5e7db8-94ec-43cf-b40e-e8cca2aa42ea",
+      "67a0ed95-b39d-43ab-8fd0-32e6eecffbe0",
+      "bdcbafeb-fe3e-423b-851c-5ce137b4934e",
+      "bfa3c110-38cc-487f-bfcf-83279ec55b31",
+      "948e0454-b3ab-4714-8ee0-a236fa9bdc71",
+      "2618d5d4-8a4d-456c-81c0-417c686501ca",
+      "845fa2cf-f94c-4536-b7cc-540f12e2d6ee",
+      "d208616c-2179-4d37-9dbe-51e61b0b0f5c",
+      "ae2f097f-8f64-405a-901d-44f579c29573",
+      "85d28342-503c-4804-a8da-14ed81851ab5",
+      "6dc4b651-9b76-493e-a355-e1a87596f150",
+      "f2e63aad-8632-46aa-a500-c47c43e15242",
+      "d4481710-48aa-42a6-be01-2375c2a651f1",
+      "c105a93c-9bf3-4033-a5d6-c1f80e9684dd",
+      "63fac02a-7d3d-4a22-a987-9dbaafca45cc",
+      "f3c2e513-d7fa-4b0c-8ab9-1ba0361d68e4",
+      "fa9d3753-0e82-45b9-a991-28a5703eb3b6",
+      "fe3d27f5-e340-48a2-a667-2ce2c89f17fd",
+      "9846f277-8d86-4478-a1e4-353db45ea8fd",
+      "337c0cae-85f6-4773-bb0b-c24eec4f3f81",
+      "38f11edc-6563-4130-996f-2f4c34271235",
+      "e5b8258c-e582-42c0-99c9-0a8db78eacc4",
+      "641b0ece-028d-4aa7-a287-72ccbc01cb82",
+      "1c25d745-5fbc-49c0-b296-7606b2982deb",
+      "85a68995-eb7c-45e7-b95e-b0e3088df35a",
+      "eb7818c3-eb32-4d3f-b26c-649de041477b",
+      "9ee07009-43d7-4635-b9a3-b46ac47ed82d"
+    ]
+  }
+}

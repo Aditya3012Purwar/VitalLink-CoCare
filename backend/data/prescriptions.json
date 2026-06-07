@@ -1,0 +1,272 @@
+{
+  "prescriptions": {
+    "DiIXYdGP-216nXiN": {
+      "id": "6fc27b52-7765-4aa3-8e49-7073dcae98c2",
+      "token": "DiIXYdGP-216nXiN",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Before meals"
+        }
+      ],
+      "notes": "Monitor off-periods",
+      "created_at": "2026-06-06T20:33:42.764649+00:00",
+      "status": "active"
+    },
+    "AJXaI04pkCUpXXjI": {
+      "id": "5bf6d4f8-a01a-44a1-9419-e8b2b93d2427",
+      "token": "AJXaI04pkCUpXXjI",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-06T20:38:16.628775+00:00",
+      "status": "active"
+    },
+    "y_KHkllDosoxelYb": {
+      "id": "f80b0477-29b5-4b9d-ab9e-c681c332d95c",
+      "token": "y_KHkllDosoxelYb",
+      "subject_id": "006",
+      "patient_name": "PD Patient 006",
+      "patient_age": 72,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-06T20:53:26.787397+00:00",
+      "status": "active"
+    },
+    "SMWyEtz2Y8zhmgiX": {
+      "id": "a4cbbe91-3198-4a20-a46f-c342ca29eeee",
+      "token": "SMWyEtz2Y8zhmgiX",
+      "subject_id": "006",
+      "patient_name": "PD Patient 006",
+      "patient_age": 72,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-rasagiline",
+          "name": "Rasagiline",
+          "generic": "rasagiline",
+          "category": "MAO-B inhibitor",
+          "dose": "1 mg",
+          "frequency": "OD",
+          "duration_days": 30,
+          "instructions": "Once daily morning; avoid tyramine-rich foods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-06T23:05:38.461519+00:00",
+      "status": "active"
+    },
+    "Cg8ixAVUaZJQ08nC": {
+      "id": "bbaca51b-1ad9-40db-8495-4d52197eb936",
+      "token": "Cg8ixAVUaZJQ08nC",
+      "subject_id": "006",
+      "patient_name": "PD Patient 006",
+      "patient_age": 72,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "www",
+      "created_at": "2026-06-07T00:35:25.124450+00:00",
+      "status": "active"
+    },
+    "KkIfdj0VxpxJutad": {
+      "id": "fbe5e0a8-f188-48df-b8fd-c09542c0898d",
+      "token": "KkIfdj0VxpxJutad",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-07T04:07:07.574190+00:00",
+      "status": "active"
+    },
+    "GxBLIM2HylA5-qOj": {
+      "id": "73910a0c-18c3-475a-9b97-a607893fcee9",
+      "token": "GxBLIM2HylA5-qOj",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "h",
+      "created_at": "2026-06-07T05:56:28.317407+00:00",
+      "status": "active"
+    },
+    "1Xx3_p-6jKgg7aDh": {
+      "id": "8322872a-de68-4dcb-88b5-92bcce859901",
+      "token": "1Xx3_p-6jKgg7aDh",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-07T06:14:40.374477+00:00",
+      "status": "active"
+    },
+    "5zPiyeQPIR81QHnR": {
+      "id": "e54d3da4-5b98-47ce-8710-2ccb17af6d53",
+      "token": "5zPiyeQPIR81QHnR",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-07T09:15:21.140268+00:00",
+      "status": "active"
+    },
+    "JchkIt6OSqkzOA3K": {
+      "id": "9fd94b0e-fde5-44e8-a6c9-3295e84c928a",
+      "token": "JchkIt6OSqkzOA3K",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-07T09:20:49.062025+00:00",
+      "status": "active"
+    },
+    "6-5SE3f3K_t-Y77F": {
+      "id": "1dfcdbcd-9e01-44ef-b897-af9625f3602f",
+      "token": "6-5SE3f3K_t-Y77F",
+      "subject_id": "004",
+      "patient_name": "PD Patient 004",
+      "patient_age": 67,
+      "condition": "Parkinson's",
+      "doctor_name": "Dr. Sarah M\u00fcller",
+      "items": [
+        {
+          "medicine_id": "med-levodopa",
+          "name": "Levodopa/Carbidopa",
+          "generic": "levodopa + carbidopa",
+          "category": "dopaminergic",
+          "dose": "100/25 mg",
+          "frequency": "TID",
+          "duration_days": 30,
+          "instructions": "Take 30 min before meals; monitor off-periods"
+        }
+      ],
+      "notes": "",
+      "created_at": "2026-06-07T09:40:47.888406+00:00",
+      "status": "active"
+    }
+  },
+  "by_patient": {
+    "004": "6-5SE3f3K_t-Y77F",
+    "006": "Cg8ixAVUaZJQ08nC"
+  }
+}
